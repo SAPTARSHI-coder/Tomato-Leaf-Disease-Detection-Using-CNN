@@ -1,0 +1,36 @@
+{
+    "timestamp": "2026-04-01T21:12:14.115417",
+    "model": "EfficientNetB0 with Transfer Learning",
+    "dataset": {
+        "train_diseased": 300,
+        "train_healthy": 303,
+        "test_diseased": 50,
+        "test_healthy": 50,
+        "total": 703
+    },
+    "metrics": {
+        "test_loss": 1.637707233428955,
+        "test_accuracy": 0.5,
+        "test_precision": 0.5,
+        "test_recall": 1.0,
+        "test_auc": 0.5,
+        "accuracy": 0.5,
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1_score": 0.6666666666666666
+    },
+    "confusion_matrix": [
+        [
+            0,
+            50
+        ],
+        [
+            0,
+            50
+        ]
+    ],
+    "class_labels": {
+        "diseased": 0,
+        "healthy": 1
+    }
+}
